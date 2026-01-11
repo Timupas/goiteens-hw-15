@@ -1,0 +1,30 @@
+{
+  "name": "goiteens-hw-15",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goiteens-hw-15/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timupas/goiteens-hw-15.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timupas/goiteens-hw-15/issues"
+  },
+  "homepage": "https://github.com/Timupas/goiteens-hw-15#readme",
+  "dependencies": {
+    "parcel": "^2.16.3",
+    "pnotify": "^5.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

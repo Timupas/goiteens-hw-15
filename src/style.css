@@ -1,0 +1,13 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.title {
+    text-align: center;
+}
+
+.data-input{
+    padding: 10px 50px;
+}
